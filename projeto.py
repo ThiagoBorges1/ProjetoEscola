@@ -1,4 +1,4 @@
-from descricoes import *
+from descricoes import *#abcedeiaraiodwiowad
 import random
 import time
 

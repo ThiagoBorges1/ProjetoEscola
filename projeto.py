@@ -121,21 +121,7 @@ class Aluno(Pessoa):
         else:
             print('Aluno já está na turma!')
             return False
-    def __str__(self):
-        f"""
-Nome: {self.nome}
-Sobrenome: {self.sobrenome}
-Endereço: {self.endereco}
-Filiação: {self.filiacao}
-E-mail do Responsável: {self.emailResponsavel}
-Registro Acadêmico: {self.registroAcademico}
-Segmento de Ensino: {self.segmentoEnsino}
-Turmas: {self.turmas}
-Usuário: {self.user}
-E-mail: {self.email}
-Senha: {self.senha}
-"""
-        
+
 class Professor(Pessoa):
     def __init__(self, nome, sobrenome, endereco, user, email, senha, formacoes, disciplinas : list, segmentoEnsino : list, turmas : list): #Segmento: Ensino Med ou Ensino Sup
         super().__init__(nome, sobrenome, endereco, user, email, senha, segmentoEnsino, turmas)

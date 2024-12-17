@@ -1,4 +1,4 @@
-import random
+import randomdasdasd
 
 nomes = nomes = ["Alice","Bernardo","Clara","Daniel","Elisa","Felipe","Gabriel","Helena","Igor","Júlia","Kaique",
                  "Lara","Marcelo","Nathália","Otávio","Paula","Renato","Sara","Tiago","Vanessa","Ana","Bruno","Carolina",
